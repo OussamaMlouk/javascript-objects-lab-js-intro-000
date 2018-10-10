@@ -6,6 +6,6 @@ return newObj
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-var newObj =  delete object.key
+var newObj =  object.key=value
 return newObj
 }
